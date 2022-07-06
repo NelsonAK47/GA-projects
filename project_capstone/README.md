@@ -55,7 +55,7 @@ Since, there is limited online sitting photos or videos dataset, below are the p
 
 **PyCaret generated models (for webcam):**
 
-![](project_capstone/Pictures/webcam_pycaret.PNG)
+![](GA-projects/project_capstone/Pictures/webcam_pycaret.PNG)
 
 Models used were Random Forest Classifier for manual learning and Extra Trees Classifier for PyCaret generated model. Dataset was train/test split by 0.7/0.3 and achieved an accuracy of ~99.6% and ~100% respectively.
 
