@@ -63,7 +63,7 @@ This shows that model is capable of classifying postures (straight, slouched, sl
 
 **Webcam Confusion Matrix**
 
-![](https://github.com/NelsonAK47/GA-projects/tree/main/project_capstone/Pictures/webcam_cm_rf.PNG)
+![](https://github.com/NelsonAK47/GA-projects/blob/main/project_capstone/Pictures/webcam_cm_rf.PNG)
 
 **Summary of models are as follows (for sidecam):**
 
