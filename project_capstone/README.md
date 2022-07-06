@@ -1,5 +1,5 @@
 
-# Office Working/Home Sitting Posture Recognition
+# Office Working/Home Sitting Posture Recognition with Computer Vision
 
 
 ## Executive Summary
