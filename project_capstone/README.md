@@ -67,7 +67,7 @@ This shows that model is capable of classifying postures (straight, slouched, sl
 
 **Summary of models are as follows (for sidecam):**
 
-|Models|Validation Accuracy|Mean F1 Score of 5 Postures|
+|Models|Validation Accuracy|Mean F1 Score of 4 Postures|
 |---|:--:|:--:|
 |Logistic Regression|98.8%|98.8%|
 |Ridge Classification|95.2%|94.5%|
