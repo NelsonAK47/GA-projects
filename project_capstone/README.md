@@ -1,5 +1,5 @@
 
-# Office Working/Home Sitting Posture Recognition
+# Office Working/Home Sitting Posture Recognition with Computer Vision
 
 
 ## Executive Summary
@@ -55,7 +55,7 @@ Since, there is limited online sitting photos or videos dataset, below are the p
 
 **PyCaret generated models (for webcam):**
 
-![Images](..\project_capstone\Pictures\webcam_pycaret.PNG)
+![](https://github.com/NelsonAK47/GA-projects/blob/main/project_capstone/Pictures/webcam_pycaret.PNG)
 
 Models used were Random Forest Classifier for manual learning and Extra Trees Classifier for PyCaret generated model. Dataset was train/test split by 0.7/0.3 and achieved an accuracy of ~99.6% and ~100% respectively.
 
@@ -63,11 +63,11 @@ This shows that model is capable of classifying postures (straight, slouched, sl
 
 **Webcam Confusion Matrix**
 
-![Images2](..\project_capstone\Pictures\webcam_cm_rf.PNG)
+![](https://github.com/NelsonAK47/GA-projects/blob/main/project_capstone/Pictures/webcam_cm_rf.PNG)
 
 **Summary of models are as follows (for sidecam):**
 
-|Models|Validation Accuracy|Mean F1 Score of 5 Postures|
+|Models|Validation Accuracy|Mean F1 Score of 4 Postures|
 |---|:--:|:--:|
 |Logistic Regression|98.8%|98.8%|
 |Ridge Classification|95.2%|94.5%|
@@ -78,13 +78,13 @@ This shows that model is capable of classifying postures (straight, slouched, sl
 
 **PyCaret generated models (for sidecam):**
 
-![Images3](..\project_capstone\Pictures\sidecam_pycaret.PNG)
+![](https://github.com/NelsonAK47/GA-projects/blob/main/project_capstone/Pictures/sidecam_pycaret.PNG)
 
 Similar to webcam, Random Forest Classifier and Extra Trees Classifier have good model performance of ~99.6% and ~99.9% accuracy with similar 0.7/0.3 train test split. Therefore, models are capable for posture prediction.
 
 **Sidecam Confusion Matrix**
 
-![Images4](..\project_capstone\Pictures\sidecam_cm_rf.PNG)
+![](https://github.com/NelsonAK47/GA-projects/blob/main/project_capstone/Pictures/sidecam_cm_rf.PNG)
 
 The best models were then tested to identify in real live camera. The models are able to detect sitting postures based on the same camera angles and remind users to sit straight when bad postures are more than 15 secs.
 
